@@ -47,3 +47,10 @@ def number_to_short_month_name(month):
 def volume_of_cube(number):
     cube_volume = number*number*number
     return cube_volume
+
+def reverse_string(string):
+    return string [::-1]
+
+def fahrenheit_to_celsius(fahrenheit_temp):
+    celsius_temp = (fahrenheit_temp - 32) * (5/9)
+    return celsius_temp
