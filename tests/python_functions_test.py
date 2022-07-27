@@ -74,10 +74,11 @@ class TestPythonFunctionPractice(unittest.TestCase):
   #Further
 
   #Given the length of a side of a cube calculate the volume
-  @unittest.skip("delete this line to run the test")
+
   def test_volume_of_cube(self):
-    #add test code here
-    pass
+    length_of_side = 2
+    cube_volume = volume_of_cube (length_of_side)
+    self.assertEqual(8, cube_volume)
 
   #Given a String, return the String reversed
 
